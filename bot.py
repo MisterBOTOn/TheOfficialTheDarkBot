@@ -31,6 +31,7 @@ bot.load_extension("cogs.utility")
 bot.load_extension("cogs.mod")
 bot.load_extension("cogs.api")
 bot.load_extension("cogs.meta")
+bot.load_extension("music")
 
 
 
