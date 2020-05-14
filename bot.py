@@ -99,7 +99,7 @@ async def on_ready():
 async def invite(ctx):
     'Returns the bot invite link'
     em = discord.Embed(color=discord.Colour.orange())
-    em.add_field(name='Invite TheDark', value='[Here]( https://discordapp.com/api/oauth2/authorize?client_id=482942398490738698&permissions=104082502&scope=bot )')
+    em.add_field(name='Invite TheDark', value='[Here]( https://discord.com/api/oauth2/authorize?client_id=710470431483887656&permissions=8&scope=bot )')
     await ctx.send(embed=em)
 
 
@@ -184,7 +184,7 @@ async def presence():
         await sleep(30)
         await bot.change_presence(activity=discord.Game(name="with my new toys | d!help"))
         await sleep(30)
-        await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="zZStefan coding me | d!help"))
+        await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="OhStefan coding me | d!help"))
         await sleep(30)
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=f"{len(bot.users)} users | d!help"))
         await sleep(30)
