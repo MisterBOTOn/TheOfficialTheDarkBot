@@ -75,7 +75,7 @@ class Utility():
 		"""Get a member's avatar
 		-------------------
 		Ex:
-		d!avatar @zZStefan"""
+		d!avatar @OhStefan"""
 		if member is None:
 			member = ctx.author
 		em = discord.Embed(title="", color=discord.Colour.blue())
@@ -105,7 +105,7 @@ class Utility():
 		"""Get a member's info
 		-------------------
 		Ex:
-		d!playerinfo @zZstefan"""
+		d!playerinfo @OhStefan"""
 		if member is None:
 			member = ctx.author
 		em = discord.Embed(title=f"{member}'s info", color=discord.Colour.blue())
