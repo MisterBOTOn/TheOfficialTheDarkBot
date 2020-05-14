@@ -23,10 +23,10 @@ class Moderation():
 	@commands.command()
 	@commands.has_permissions(ban_members=True)
 	async def ban(self, ctx, member: discord.Member = None, *, reason = None):
-		'''Ban a member in a guild
+		'''Ban a member in a server
 		-------------------
 		Ex:
-		d!ban @zZstefan Bad boy'''
+		d!ban @OhStefan Bad boy'''
 		if member is None:
 			await ctx.send("| Please provide a user to ban")
 		if member == ctx.author:
@@ -47,10 +47,10 @@ class Moderation():
 	@commands.command()
 	@commands.has_permissions(kick_members=True)
 	async def kick(self, ctx, member: discord.Member = None, *, reason = None):
-		'''Kick a member in a guild
+		'''Kick a member in a server
 		-------------------
 		Ex:
-		d!kick @zZstefan Shitposting'''
+		d!kick @OhStefan Shitposting'''
 		if member is None:
 			await ctx.send("| Please provide a user to kick")
 		if member == ctx.author:
