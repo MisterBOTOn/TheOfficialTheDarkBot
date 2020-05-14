@@ -23,7 +23,7 @@ class More():
 	async def discordbotlist(self, ctx):
 		'Returns the bot DBL link'
 		em = discord.Embed(title="", color=discord.Colour.blue())
-		em.add_field(name="Discord Bot List", value='[TheDark]( https://www.youtube.com/channel/UCe3cJzGyLmIvqp0fj5PHwew?view_as=subscriber )', inline=False)
+		em.add_field(name="Discord Bot List", value='[SKYBLOCK]( https://www.youtube.com/channel/UCe3cJzGyLmIvqp0fj5PHwew?view_as=subscriber )', inline=False)
 		
 		await ctx.send(embed=em)
 
@@ -42,7 +42,7 @@ class More():
 		if feedback is None:
 			await ctx.send(' | Hey, please do `d!feedback <feedback>`')
 		if feedback is not None:
-			await self.bot.get_guild(481842101844443146).get_channel(481842101844443146).send(f'{ctx.author} ({ctx.author.id}) reported: {feedback}')
+			await self.bot.get_guild(710460702070013982).get_channel(710460702070013982).send(f'{ctx.author} ({ctx.author.id}) reported: {feedback}')
 			await ctx.send(' | Your feedback was reported to the team')
 
 
@@ -64,7 +64,7 @@ class More():
 		if bug is None:
 			await ctx.send(' | Hey, please do `d!bug <bug>`')
 		if bug is not None:
-			await self.bot.get_guild(481842101844443146).get_channel(481842101844443146).send(f'{ctx.author} ({ctx.author.id}) reported: {bug}')
+			await self.bot.get_guild(710460702070013982).get_channel(710460702070013982).send(f'{ctx.author} ({ctx.author.id}) reported: {bug}')
 			await ctx.message.channel.send('| Your problem was reported to the team')
 
 
